@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Structure</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-colour: #f4f4f4;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background-color: rgba(0, 2, 0, 0.849);
+            padding: 10px;
+            overflow-x: auto;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+    <header>
+        <h1 class="centre ">
+          zdprogess.github.io/home
+        </h1>
+        <nav class="nav white">
+          <a href="index.html" class="anav white">HOME</a>
+          <a href="folderManagment/index.html" class="anav white">FOLDER MANAGMENT</a>
+          <a href="../html/index.html" class="anav white">HTML</a>
+          <a href="css/index.html" class="anav white">CSS</a>
+          <a href="javascript/index.html" class="anav white">JAVASCRIPT</a>
+        </nav>
+      </header>
+
+
+
+
+
+
+
+
+
+
+    <h1>Basic HTML Structure</h1>
+
+    <p>Every HTML document follows a fundamental structure. Understanding this structure is essential for creating well-formed web pages.</p>
+
+    <h2>The Essential Elements:</h2>
+
+    <ol>
+        <li><strong><code>&lt;!DOCTYPE html&gt;</code>:</strong>
+            <p>This declaration is the very first thing in your HTML document. It tells the browser which version of HTML the page is using. For HTML5, it's simply <code>&lt;!DOCTYPE html&gt;</code>.</p>
+        </li>
+        <li><strong><code>&lt;html&gt;</code>:</strong>
+            <p>This is the root element of an HTML page. It wraps all other elements in the document. The <code>lang</code> attribute is used within the opening html tag, like this: <code>&lt;html lang="en"&gt;</code> This specifies the language of the document.</p>
+        </li>
+        <li><strong><code>&lt;head&gt;</code>:</strong>
+            <p>This section contains meta-information about the HTML document. It's not displayed on the page itself. It includes things like the page title, character set, and links to external files (CSS, JavaScript).</p>
+        </li>
+        <li><strong><code>&lt;title&gt;</code>:</strong>
+            <p>Defines the title of the document, which appears in the browser's title bar or tab. It's also used by search engines.</p>
+        </li>
+        <li><strong><code>&lt;meta&gt;</code>:</strong>
+            <p>Provides metadata about the HTML document. Examples: <code>charset="UTF-8"</code>: Specifies the character encoding. <code>name="viewport"</code>: Configures the viewport for responsive design.</p>
+        </li>
+        <li><strong><code>&lt;body&gt;</code>:</strong>
+            <p>This section contains the visible content of the HTML page. Everything you want to display on the page goes inside the <code>&lt;body&gt;</code>.</p>
+        </li>
+    </ol>
+
+    <h2>Example:</h2>
+
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;My First HTML Page&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Hello, World!&lt;/h1&gt;
+            &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+
+    <h2>Explanation of the example:</h2>
+
+    <ul>
+        <li>The <code>&lt;!DOCTYPE html&gt;</code> declaration tells the browser it's an HTML5 document.</li>
+        <li>The <code>&lt;html&gt;</code> tag specifies that it is a html document, and the <code>lang="en"</code> attribute specifies the language is English.</li>
+        <li>The <code>&lt;head&gt;</code> section includes the character set, viewport settings, and the page title.</li>
+        <li>The <code>&lt;body&gt;</code> section contains a heading (<code>&lt;h1&gt;</code>) and a paragraph (<code>&lt;p&gt;</code>), which will be displayed in the browser.</li>
+    </ul>
+
+    <h2>Key Takeaways:</h2>
+
+    <ul>
+        <li>Every HTML document should have this basic structure.</li>
+        <li>The <code>&lt;head&gt;</code> contains meta-information, and the <code>&lt;body&gt;</code> contains the visible content.</li>
+        <li>The <code>lang</code> attribute inside the html tag, is a good practice to include.</li>
+    </ul>
+    <p>Next Section: <a class="btn" href="sematic.html">Sematic HTML</a></p>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>
+          Contucts <br />
+          Send and email<br>
+          <a href="mailto:email:progresstechhub@gmail.com">progresstechhub@gmail.com</a> <br> <br>
+          Call<br>
+          <a href="tel: +256740826867">+256740826867</a> <br>
+          <a href="tel: +256740826867">+256759775248</a>
+          <address>
+          <p>
+
+          </p>
+          </address>
+        </p>
+      </footer>
+
+
+
+
+
+</body>
+</html>
